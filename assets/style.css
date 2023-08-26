@@ -1,0 +1,325 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Geologica:wght@100;200;300;400;600&family=Inter:wght@100;200;400&family=Italiana&family=Lobster&family=Roboto:wght@300&display=swap');
+/* font-family: 'Alkalami', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Italiana', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif; */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 220, 0.716);
+}
+/* topo do site */
+
+.top{
+    background-image: linear-gradient(to right,#4c6c81, #083263 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 2100px;
+    margin: auto;
+    
+}
+.logo-hero{
+    margin-left: 1rem;
+    padding: 1rem 0;
+}
+.nav-menu>ul{
+    display: flex;
+    gap:2.5rem;
+    margin-right: 2.5rem;
+    
+
+}
+.link-menu{
+    list-style-type: none;
+}
+.link-menu > a{
+    text-decoration: none;
+    color: #fed001;
+    border: 1px solid #fed001;
+    padding: 1rem ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.link-menu > a:hover{
+    transition: 1.5s ease;
+    background-color: rgb(82, 80, 80);
+    
+}
+/* banner topo */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem 0;
+    background-image: linear-gradient( to bottom,#f4f2ed,#f1d65c);
+    width: 100%;
+    margin: auto;
+    max-width: 2100px;
+    
+}
+.descript-text{
+flex: 1 0 auto;
+    
+}
+.descript-heroImage{
+    flex: 1 0 auto;
+    
+
+}
+.descript-heroImage > img{
+    
+    width: 35rem;
+    height: 100%;
+    
+    
+}
+.descript-text  p{
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.795);
+    
+}
+.transform-text::after{
+    content: 'ser';
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.center{
+    margin:6rem 0 0 3.5rem
+}
+.bnt-hero{
+    margin-top: 2rem;
+    background-color: #fed001;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000b6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+/* segunda seção cards cursos */
+.container{
+    height: 50rem;
+    
+}
+
+.title-cursos{
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 2.5rem;
+    font-family: 'inter';
+    color: #083263;
+}
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 90%;
+    max-width: 2100px;
+    margin: auto;
+    
+    /* border: 1px solid rgb(16, 16, 16); */
+    
+}
+.cards{
+    flex: 1 0 300px;
+    background-color: #fff;
+    
+    
+   
+    
+}
+.cards > img{
+    width: 100%;
+}
+.desc-cursos{
+    text-align: center;
+    margin: 10px 0;
+    color: #083263;
+    font-family: 'inter',sans-serif;
+}
+.desc-paragrafo{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 15px;
+    line-height: 1.5rem;
+    font-family: 'inter',sans-serif;
+    font-size: 1rem;
+    
+}
+.bnt-cursos{
+    background-color: #fed001;
+    color: #000000b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 3rem auto;
+    width: 20%;
+    max-width: 315px;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+/* About */
+.about{
+    display: flex;
+    background-color: #083263;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    max-width: 2100px;
+    
+}
+.about-imagem{
+   
+    flex: 1 0 300px;
+    height: 500px;
+    
+    
+}
+.about-imagem img {
+    
+    height: 80.6%;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    
+  }
+
+    
+.about-text{
+    flex: 1 0 300px;
+    padding: 10px;
+
+}
+    .about-text h4{
+        color: #fff;
+        font-family: 'inter', sans-serif;
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    .about-text p{
+        color: #fff;
+        margin-top: 2.5rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+        /* contatos */
+        .contato-map{
+            text-align: center;
+            color: #083263;
+            font-family: 'inter', sans-serif;
+            margin: 5rem 0;
+            font-size: 2rem;
+
+        }
+        .map-contato{
+            width: 90%;
+            margin: auto;
+            max-width: 2100px;
+        }
+        .map-contato iframe{
+            width: 100%;
+
+        }
+        .telefone{
+            
+            margin-top: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            margin: auto;
+            width: 90%;
+            max-width: 2100px;
+        }
+        .box-1 h6{
+            color: #083263;
+            font-family: 'inter', sans-serif;
+            margin-top: .5rem;
+            font-size: 1.5rem;
+        }
+        .box-1{
+            font-family: 'inter',sans-serif;
+            color: #083263;
+        }
+        .baseboard{
+            background-image: linear-gradient(to right,#4c6c81, #083263 ); 
+            width: 100%;
+            max-width: 2100px;
+            margin: auto;
+            margin-top: 3rem;
+            height: 5rem;  
+        }
+        .baseboard p{
+            color: #fff;
+            text-align: center;
+            font-size: 1rem;
+            font-family: 'inter',sans-serif;
+
+        }
+
+
+
+    /* Estilos gerais para mobile */
+@media (max-width: 768px) {
+    /* Alterações para elementos de largura fixa */
+    .about-imagem {
+      width: 100%; /* Ajustando a largura para ocupar a largura total */
+      height: auto; /* Ajustando a altura para ser adaptável */
+    }
+    .banner p{
+        font-size: 3rem;
+    }
+
+    
+    .about-imagem img {
+      height: auto; /* Ajustando a altura da imagem */
+      margin-top: 3rem; /* Reduzindo a margem superior */
+      margin-left: 2.5rem; /* Reduzindo a margem esquerda */
+      max-width:400px;
+    }
+    
+    .bnt-hero {
+      padding: 0.8rem 2rem; /* Ajustando o padding do botão */
+      font-size: 0.9rem; /* Reduzindo o tamanho da fonte */
+    }
+    
+    .bnt-cursos {
+      width: 40%; /* Reduzindo a largura do botão */
+      padding: 10px 0.6rem; /* Ajustando o padding do botão */
+      font-size: 0.9rem; /* Reduzindo o tamanho da fonte */
+    }
+    
+    /* Outros ajustes necessários para os elementos do layout */
+  }
+  
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
