@@ -288,6 +288,41 @@ flex: 1 0 auto;
     .banner p{
         font-size: 3rem;
     }
+    .descript-heroImage > img{
+    
+        max-width:400px;
+        height: 100%;
+        
+        
+    }
+    .nav-menu>ul{
+        display:block;
+        
+        
+        
+    
+    }
+    .nav-menu>ul li a{
+        border: none;
+        padding: 20px;
+        margin-top: 2rem;
+        
+        
+        
+    
+    }
+    .nav-menu>ul li{
+        background-color: #4c6c81;
+        padding: 1rem 0;
+        border-bottom: #fed001 1px solid;
+    }
+    .nav-menu>ul li a:hover{
+        background-color: transparent;
+        
+        
+        
+    
+    }
 
     
     .about-imagem img {
